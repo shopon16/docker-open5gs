@@ -1,0 +1,640 @@
+Open5GS daemon v2.6.6
+
+01/19 15:03:10.146: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:10.146: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:10.490: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/19 15:03:10.490: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/19 15:03:10.514: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/19 15:03:10.514: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/19 15:03:10.525: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+01/19 15:03:12.908: [sgwu] WARNING: PFCP[REQ] has already been associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:266)
+Open5GS daemon v2.6.6
+
+01/19 15:03:58.091: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:58.091: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:58.280: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/19 15:03:58.280: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/19 15:03:58.281: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/19 15:03:58.281: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/19 15:03:58.308: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+01/19 15:04:00.718: [sgwu] WARNING: PFCP[REQ] has already been associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:266)
+Open5GS daemon v2.7.0
+
+01/19 15:51:49.795: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:51:49.795: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 15:51:49.796: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:51:49.796: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe804b202bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe804b16019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe804af56c7]
+./open5gs-sgwud(+0x4aed) [0x559b9531faed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe8048df083]
+./open5gs-sgwud(+0x41ae) [0x559b9531f1ae]
+Open5GS daemon v2.7.0
+
+01/19 15:53:27.621: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:53:27.621: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 15:53:27.621: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:53:27.624: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f73495d62bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f73495cc019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f73495ab6c7]
+./open5gs-sgwud(+0x4aed) [0x5589b52d3aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7349395083]
+./open5gs-sgwud(+0x41ae) [0x5589b52d31ae]
+Open5GS daemon v2.7.0
+
+01/19 15:54:24.488: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:54:24.488: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 15:54:24.488: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:54:24.488: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fdd92edf2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fdd92ed5019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fdd92eb46c7]
+./open5gs-sgwud(+0x4aed) [0x5603310cbaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fdd92c9e083]
+./open5gs-sgwud(+0x41ae) [0x5603310cb1ae]
+Open5GS daemon v2.7.0
+
+01/19 15:57:16.709: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:57:16.709: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 15:57:16.709: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:57:16.710: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f579d1d72bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f579d1cd019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f579d1ac6c7]
+./open5gs-sgwud(+0x4aed) [0x560f2b3efaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f579cf96083]
+./open5gs-sgwud(+0x41ae) [0x560f2b3ef1ae]
+Open5GS daemon v2.7.0
+
+01/19 15:58:08.211: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:58:08.211: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 15:58:08.211: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:58:08.212: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f517d7f62bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f517d7ec019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f517d7cb6c7]
+./open5gs-sgwud(+0x4aed) [0x563aa58c1aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f517d5b5083]
+./open5gs-sgwud(+0x41ae) [0x563aa58c11ae]
+Open5GS daemon v2.7.0
+
+01/19 16:00:13.585: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:13.585: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:13.585: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:13.585: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f7b61c4d2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f7b61c43019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f7b61c226c7]
+./open5gs-sgwud(+0x4aed) [0x55fbeb02eaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7b61a0c083]
+./open5gs-sgwud(+0x41ae) [0x55fbeb02e1ae]
+Open5GS daemon v2.7.0
+
+01/19 16:00:51.922: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:51.923: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:51.923: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:51.923: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f29bea4c2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f29bea42019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f29bea216c7]
+./open5gs-sgwud(+0x4aed) [0x5602ad0d5aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f29be80b083]
+./open5gs-sgwud(+0x41ae) [0x5602ad0d51ae]
+Open5GS daemon v2.7.0
+
+01/19 16:02:44.544: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:02:44.545: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 16:02:44.545: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:02:44.545: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc50c8f62bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc50c8ec019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc50c8cb6c7]
+./open5gs-sgwud(+0x4aed) [0x563590ce4aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc50c6b5083]
+./open5gs-sgwud(+0x41ae) [0x563590ce41ae]
+Open5GS daemon v2.7.0
+
+01/19 16:04:49.813: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:04:49.813: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 16:04:49.813: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:04:49.813: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f8ea05de2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f8ea05d4019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f8ea05b36c7]
+./open5gs-sgwud(+0x4aed) [0x562b56cabaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8ea039d083]
+./open5gs-sgwud(+0x41ae) [0x562b56cab1ae]
+Open5GS daemon v2.7.0
+
+01/19 17:44:57.695: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:44:57.695: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 17:44:57.696: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:44:57.698: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc64426a2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc644260019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc64423f6c7]
+./open5gs-sgwud(+0x4aed) [0x55b51357eaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc644029083]
+./open5gs-sgwud(+0x41ae) [0x55b51357e1ae]
+Open5GS daemon v2.7.0
+
+01/19 17:45:20.157: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:20.157: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:20.158: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:20.158: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f25069052bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f25068fb019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f25068da6c7]
+./open5gs-sgwud(+0x4aed) [0x5629b627caed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f25066c4083]
+./open5gs-sgwud(+0x41ae) [0x5629b627c1ae]
+Open5GS daemon v2.7.0
+
+01/19 17:47:09.612: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:47:09.612: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 17:47:09.612: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:47:09.617: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fda6f9f92bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fda6f9ef019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fda6f9ce6c7]
+./open5gs-sgwud(+0x4aed) [0x56288f3c5aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fda6f7b8083]
+./open5gs-sgwud(+0x41ae) [0x56288f3c51ae]
+Open5GS daemon v2.7.0
+
+01/19 18:38:32.795: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:38:32.795: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:38:32.795: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:38:32.795: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f649fc582bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f649fc4e019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f649fc2d6c7]
+./open5gs-sgwud(+0x4aed) [0x55722e401aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f649fa17083]
+./open5gs-sgwud(+0x41ae) [0x55722e4011ae]
+Open5GS daemon v2.7.0
+
+01/19 18:40:27.634: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:40:27.634: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:40:27.634: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:40:27.636: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f31cb60b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f31cb601019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f31cb5e06c7]
+./open5gs-sgwud(+0x4aed) [0x564e88693aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f31cb3ca083]
+./open5gs-sgwud(+0x41ae) [0x564e886931ae]
+Open5GS daemon v2.7.0
+
+01/19 18:42:46.133: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:42:46.133: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:42:46.133: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:42:46.134: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fb7cdc1e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fb7cdc14019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fb7cdbf36c7]
+./open5gs-sgwud(+0x4aed) [0x558725f9eaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fb7cd9dd083]
+./open5gs-sgwud(+0x41ae) [0x558725f9e1ae]
+Open5GS daemon v2.7.0
+
+01/19 18:43:34.939: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:43:34.939: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:43:34.939: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:43:34.940: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f984a6e12bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f984a6d7019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f984a6b66c7]
+./open5gs-sgwud(+0x4aed) [0x561090156aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f984a4a0083]
+./open5gs-sgwud(+0x41ae) [0x5610901561ae]
+Open5GS daemon v2.7.0
+
+01/19 18:45:45.097: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:45:45.097: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:45:45.097: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:45:45.180: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fd77b4ab2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fd77b4a1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fd77b4806c7]
+./open5gs-sgwud(+0x4aed) [0x55f7807d6aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fd77b26a083]
+./open5gs-sgwud(+0x41ae) [0x55f7807d61ae]
+Open5GS daemon v2.7.0
+
+01/19 18:47:48.698: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:47:48.698: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:47:48.698: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:47:48.698: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fd60328b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fd603281019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fd6032606c7]
+./open5gs-sgwud(+0x4aed) [0x5620211cfaed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fd60304a083]
+./open5gs-sgwud(+0x41ae) [0x5620211cf1ae]
+Open5GS daemon v2.7.0
+
+01/19 18:48:12.490: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:48:12.490: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 18:48:12.490: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:48:12.490: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f5624a132bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f5624a09019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f56249e86c7]
+./open5gs-sgwud(+0x4aed) [0x55b69da26aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f56247d2083]
+./open5gs-sgwud(+0x41ae) [0x55b69da261ae]
+Open5GS daemon v2.7.0
+
+01/19 19:03:18.829: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:03:18.829: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 19:03:18.829: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:03:18.832: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f21cf5a72bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f21cf59d019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f21cf57c6c7]
+./open5gs-sgwud(+0x4aed) [0x5557a18a2aed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f21cf366083]
+./open5gs-sgwud(+0x41ae) [0x5557a18a21ae]
+Open5GS daemon v2.7.0
+
+01/19 19:05:17.649: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:05:17.649: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/19 19:05:17.649: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:05:17.650: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f9ecd1022bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f9ecd0f8019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f9ecd0d76c7]
+./open5gs-sgwud(+0x4aed) [0x55b84d64baed]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f9eccec1083]
+./open5gs-sgwud(+0x41ae) [0x55b84d64b1ae]
+Open5GS daemon v2.7.0
+
+01/20 06:23:21.451: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:23:21.451: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:23:21.797: [sock] ERROR: socket bind(2) [172.22.0.5]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:114)
+01/20 06:23:21.797: [sock] ERROR: udp_server() [172.22.0.5]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:67)
+01/20 06:23:21.797: [app] ERROR: Failed to initialize SGW-U (../src/sgwu/app.c:28)
+01/20 06:23:21.797: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.7.0
+
+01/20 06:25:27.965: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:25:27.965: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:25:28.125: [sock] ERROR: socket bind(2) [172.22.0.5]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:114)
+01/20 06:25:28.125: [sock] ERROR: udp_server() [172.22.0.5]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:67)
+01/20 06:25:28.125: [app] ERROR: Failed to initialize SGW-U (../src/sgwu/app.c:28)
+01/20 06:25:28.125: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.7.0
+
+01/20 06:32:26.333: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:32:26.333: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:32:26.712: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:32:26.712: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:32:26.715: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:32:26.817: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:32:26.817: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 06:33:28.726: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:33:28.726: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:33:28.993: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:33:28.994: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:33:28.994: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:33:28.996: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:33:29.152: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+01/20 06:33:31.498: [sgwu] WARNING: PFCP[RSP] has already been associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:273)
+Open5GS daemon v2.7.0
+
+01/20 06:34:17.141: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:34:17.141: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:34:17.501: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:34:17.501: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:34:17.503: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:34:17.507: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:34:17.516: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+01/20 06:34:20.006: [sgwu] WARNING: PFCP[RSP] has already been associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:273)
+Open5GS daemon v2.7.0
+
+01/20 06:36:56.942: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:36:56.942: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:36:57.333: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:36:57.336: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:36:57.336: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:36:59.696: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:36:59.697: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 06:38:41.918: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:38:41.918: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:38:42.194: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:38:42.194: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:38:42.195: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:38:42.195: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:38:42.197: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+01/20 06:38:44.606: [sgwu] WARNING: PFCP[REQ] has already been associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:266)
+Open5GS daemon v2.7.0
+
+01/20 06:40:36.898: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:40:36.898: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:40:37.280: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:40:37.280: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:40:37.281: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:40:39.602: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:40:39.603: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 06:51:33.473: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:51:33.473: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:51:33.654: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:51:33.654: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:51:33.655: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:51:36.053: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:51:36.056: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 06:58:18.962: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:58:18.962: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 06:58:19.271: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 06:58:19.271: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 06:58:19.272: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 06:58:21.617: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 06:58:21.624: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:05:42.899: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:05:42.899: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:05:43.050: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:05:43.050: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:05:43.053: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:05:43.091: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:05:43.092: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:15:58.918: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:15:58.919: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:15:59.060: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:15:59.060: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:15:59.061: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:16:01.495: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:16:01.496: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:21:27.112: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:21:27.112: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:21:27.335: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:21:27.335: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:21:27.335: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:21:27.454: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:21:27.454: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:37:09.718: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:37:09.718: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:37:09.934: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:37:09.972: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:37:10.004: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:37:10.004: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+01/20 07:37:10.004: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:46:37.474: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:46:37.474: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:46:37.905: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:46:37.905: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:46:37.906: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:46:38.037: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:46:38.038: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:51:21.719: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:21.719: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:21.898: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:51:21.898: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:51:21.902: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:51:24.315: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:51:24.316: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:51:56.704: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:56.704: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:56.849: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:51:56.849: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:51:56.850: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:51:59.290: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:51:59.290: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:56:43.905: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:56:43.906: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:56:44.245: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:56:44.246: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:56:44.246: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:56:44.394: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:56:44.394: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:57:19.095: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:57:19.096: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:57:19.403: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:57:19.404: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:57:19.404: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:57:21.754: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:57:21.757: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:59:24.067: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:24.067: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:24.488: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:59:24.488: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:59:24.489: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:59:24.518: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:59:24.524: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 07:59:57.009: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:57.009: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:57.731: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 07:59:57.731: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 07:59:57.731: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 07:59:57.746: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 07:59:57.746: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:02:20.558: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:02:20.558: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:02:20.871: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:02:20.871: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:02:20.871: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:02:23.151: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:02:23.152: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:18:54.696: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:18:54.696: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:18:54.969: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:18:54.970: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:18:54.970: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:18:57.120: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:18:57.121: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:20:06.563: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:20:06.563: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:20:07.013: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:20:07.013: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:20:07.015: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:20:09.387: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:20:09.389: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:22:16.616: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:22:16.616: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:22:16.886: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:22:16.886: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:22:16.889: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:22:18.892: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:22:18.894: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:29:22.318: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:29:22.318: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:29:22.615: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:29:22.617: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:29:22.618: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:29:25.112: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:29:25.116: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:30:10.978: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:30:10.978: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:30:11.500: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:30:11.500: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:30:11.500: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:30:13.942: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:30:13.944: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:34:52.108: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:34:52.108: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:34:52.519: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:34:52.519: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:34:52.529: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:34:54.897: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:34:54.898: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:37:20.720: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:37:20.720: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:37:20.980: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:37:20.980: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:37:20.980: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:37:23.466: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:37:23.467: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:43:38.865: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:43:38.865: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:43:39.239: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:43:39.239: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:43:39.241: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:43:39.332: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:43:39.332: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:51:23.888: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:51:23.888: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:51:24.426: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:51:24.427: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:51:24.431: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:52:08.476: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:52:08.476: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:52:08.768: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:52:08.772: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:52:08.773: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:52:08.790: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:52:08.790: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:53:57.287: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:53:57.287: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:53:57.519: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:53:57.520: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:53:57.524: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:53:57.646: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:53:57.647: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:55:00.138: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:00.138: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:00.525: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:55:00.525: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:55:00.525: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:55:00.681: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:55:00.683: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/20 08:55:35.915: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:35.915: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:36.195: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/20 08:55:36.195: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/20 08:55:36.209: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/20 08:55:38.474: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/20 08:55:38.475: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/26 15:25:25.593: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/26 15:25:25.593: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/26 15:25:25.876: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/26 15:25:25.876: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/26 15:25:25.876: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/26 15:25:28.177: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/26 15:25:28.178: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/26 16:22:48.577: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:22:48.577: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/26 16:22:49.136: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/26 16:22:49.136: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/26 16:22:49.138: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/26 16:22:49.334: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/26 16:22:49.335: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/26 16:24:16.389: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:24:16.389: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/26 16:24:16.667: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/26 16:24:16.668: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/26 16:24:16.668: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/26 16:24:16.683: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/26 16:24:16.685: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/26 16:27:13.021: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:27:13.022: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/26 16:27:13.486: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/26 16:27:13.486: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/26 16:27:13.489: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/26 16:27:13.559: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/26 16:27:13.562: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/26 16:43:06.296: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:43:06.296: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/26 16:43:06.700: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/26 16:43:06.701: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/26 16:43:06.702: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/26 16:43:08.895: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/26 16:43:08.895: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)
+Open5GS daemon v2.7.0
+
+01/26 16:44:46.426: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwu.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:44:46.426: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwu.log' (../lib/app/ogs-init.c:133)
+01/26 16:44:46.750: [pfcp] INFO: pfcp_server() [172.22.0.6]:8805 (../lib/pfcp/path.c:30)
+01/26 16:44:46.750: [gtp] INFO: gtp_server() [172.22.0.6]:2152 (../lib/gtp/path.c:30)
+01/26 16:44:46.750: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+01/26 16:44:46.960: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.5]:8805 (../lib/pfcp/path.c:61)
+01/26 16:44:46.960: [sgwu] INFO: PFCP associated [172.22.0.5]:8805 (../src/sgwu/pfcp-sm.c:179)

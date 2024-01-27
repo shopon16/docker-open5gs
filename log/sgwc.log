@@ -1,0 +1,1139 @@
+Open5GS daemon v2.6.6
+
+01/19 15:03:10.120: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:10.120: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:10.405: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/19 15:03:10.405: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/19 15:03:10.405: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/19 15:03:10.418: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/19 15:03:10.524: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+01/19 15:03:12.909: [sgwc] WARNING: PFCP[RSP] has already been associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:284)
+Open5GS daemon v2.6.6
+
+01/19 15:03:57.876: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:57.876: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:58.201: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/19 15:03:58.213: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/19 15:03:58.214: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/19 15:03:58.214: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/19 15:03:58.308: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+01/19 15:04:00.719: [sgwc] WARNING: PFCP[RSP] has already been associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:284)
+Open5GS daemon v2.7.0
+
+01/19 15:51:48.993: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:51:48.993: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 15:51:48.993: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:51:48.993: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc51e7bb2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc51e7b1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc51e7906c7]
+./open5gs-sgwcd(+0x5ded) [0x560bc1d34ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc51e57a083]
+./open5gs-sgwcd(+0x54ae) [0x560bc1d344ae]
+Open5GS daemon v2.7.0
+
+01/19 15:53:26.920: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:53:26.920: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 15:53:26.920: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:53:26.924: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f04db2742bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f04db26a019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f04db2496c7]
+./open5gs-sgwcd(+0x5ded) [0x564b43dd7ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f04db033083]
+./open5gs-sgwcd(+0x54ae) [0x564b43dd74ae]
+Open5GS daemon v2.7.0
+
+01/19 15:54:24.808: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:54:24.808: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 15:54:24.808: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:54:24.809: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe9182302bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe918226019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe9182056c7]
+./open5gs-sgwcd(+0x5ded) [0x55bac354fded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe917fef083]
+./open5gs-sgwcd(+0x54ae) [0x55bac354f4ae]
+Open5GS daemon v2.7.0
+
+01/19 15:57:16.155: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:57:16.162: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 15:57:16.167: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:57:16.170: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fa75931e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fa759314019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fa7592f36c7]
+./open5gs-sgwcd(+0x5ded) [0x56232cf1bded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa7590dd083]
+./open5gs-sgwcd(+0x54ae) [0x56232cf1b4ae]
+Open5GS daemon v2.7.0
+
+01/19 15:58:08.358: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:58:08.358: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 15:58:08.359: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:58:08.359: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f2298d5c2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2298d52019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f2298d316c7]
+./open5gs-sgwcd(+0x5ded) [0x55fb36928ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2298b1b083]
+./open5gs-sgwcd(+0x54ae) [0x55fb369284ae]
+Open5GS daemon v2.7.0
+
+01/19 16:00:13.694: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:13.694: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:13.694: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:13.695: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f057003b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f0570031019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f05700106c7]
+./open5gs-sgwcd(+0x5ded) [0x555c9f5cdded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f056fdfa083]
+./open5gs-sgwcd(+0x54ae) [0x555c9f5cd4ae]
+Open5GS daemon v2.7.0
+
+01/19 16:00:52.128: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:52.128: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:52.128: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:52.128: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fcbccbee2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fcbccbe4019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fcbccbc36c7]
+./open5gs-sgwcd(+0x5ded) [0x555761f1fded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fcbcc9ad083]
+./open5gs-sgwcd(+0x54ae) [0x555761f1f4ae]
+Open5GS daemon v2.7.0
+
+01/19 16:02:44.497: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:02:44.497: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 16:02:44.497: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:02:44.500: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f9b6c2c52bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f9b6c2bb019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f9b6c29a6c7]
+./open5gs-sgwcd(+0x5ded) [0x55bd98044ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f9b6c084083]
+./open5gs-sgwcd(+0x54ae) [0x55bd980444ae]
+Open5GS daemon v2.7.0
+
+01/19 16:04:49.615: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:04:49.616: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 16:04:49.617: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:04:49.618: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f1095d582bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f1095d4e019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f1095d2d6c7]
+./open5gs-sgwcd(+0x5ded) [0x558ba45d6ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f1095b17083]
+./open5gs-sgwcd(+0x54ae) [0x558ba45d64ae]
+Open5GS daemon v2.7.0
+
+01/19 17:44:57.682: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:44:57.682: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 17:44:57.682: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:44:57.685: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fa5dc45b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fa5dc451019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fa5dc4306c7]
+./open5gs-sgwcd(+0x5ded) [0x55b85688bded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa5dc21a083]
+./open5gs-sgwcd(+0x54ae) [0x55b85688b4ae]
+Open5GS daemon v2.7.0
+
+01/19 17:45:19.995: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:19.995: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:19.995: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:19.996: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f80565d32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f80565c9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f80565a86c7]
+./open5gs-sgwcd(+0x5ded) [0x5652d8c28ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8056392083]
+./open5gs-sgwcd(+0x54ae) [0x5652d8c284ae]
+Open5GS daemon v2.7.0
+
+01/19 17:47:09.613: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:47:09.613: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 17:47:09.613: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:47:09.617: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fdcb3bf72bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fdcb3bed019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fdcb3bcc6c7]
+./open5gs-sgwcd(+0x5ded) [0x564b4bc32ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fdcb39b6083]
+./open5gs-sgwcd(+0x54ae) [0x564b4bc324ae]
+Open5GS daemon v2.7.0
+
+01/19 18:38:32.691: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:38:32.691: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:38:32.692: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:38:32.700: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f6d74bdd2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f6d74bd3019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f6d74bb26c7]
+./open5gs-sgwcd(+0x5ded) [0x562648155ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f6d7499c083]
+./open5gs-sgwcd(+0x54ae) [0x5626481554ae]
+Open5GS daemon v2.7.0
+
+01/19 18:40:27.360: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:40:27.360: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:40:27.360: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:40:27.360: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fbdf72c32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fbdf72b9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fbdf72986c7]
+./open5gs-sgwcd(+0x5ded) [0x556362515ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fbdf7082083]
+./open5gs-sgwcd(+0x54ae) [0x5563625154ae]
+Open5GS daemon v2.7.0
+
+01/19 18:42:45.725: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:42:45.725: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:42:45.725: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:42:45.727: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fec95e332bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fec95e29019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fec95e086c7]
+./open5gs-sgwcd(+0x5ded) [0x562475c6cded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fec95bf2083]
+./open5gs-sgwcd(+0x54ae) [0x562475c6c4ae]
+Open5GS daemon v2.7.0
+
+01/19 18:43:34.250: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:43:34.250: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:43:34.250: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:43:34.252: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f02e2ecb2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f02e2ec1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f02e2ea06c7]
+./open5gs-sgwcd(+0x5ded) [0x55b8b7196ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f02e2c8a083]
+./open5gs-sgwcd(+0x54ae) [0x55b8b71964ae]
+Open5GS daemon v2.7.0
+
+01/19 18:45:45.096: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:45:45.096: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:45:45.096: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:45:45.181: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f894219a2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f8942190019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f894216f6c7]
+./open5gs-sgwcd(+0x5ded) [0x562896e89ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8941f59083]
+./open5gs-sgwcd(+0x54ae) [0x562896e894ae]
+Open5GS daemon v2.7.0
+
+01/19 18:47:48.780: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:47:48.780: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:47:48.780: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:47:48.781: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f81e5f602bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f81e5f56019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f81e5f356c7]
+./open5gs-sgwcd(+0x5ded) [0x55dec78f5ded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f81e5d1f083]
+./open5gs-sgwcd(+0x54ae) [0x55dec78f54ae]
+Open5GS daemon v2.7.0
+
+01/19 18:48:12.046: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:48:12.046: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 18:48:12.046: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:48:12.048: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f265673f2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2656735019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f26567146c7]
+./open5gs-sgwcd(+0x5ded) [0x55f61f91aded]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f26564fe083]
+./open5gs-sgwcd(+0x54ae) [0x55f61f91a4ae]
+Open5GS daemon v2.7.0
+
+01/19 19:03:18.566: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:03:18.566: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 19:03:18.972: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/19 19:03:18.972: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/19 19:03:18.972: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/19 19:03:18.973: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/19 19:03:26.485: [pfcp] WARNING: [1] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:03:29.987: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:03:37.496: [pfcp] WARNING: [2] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:03:40.991: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+Open5GS daemon v2.7.0
+
+01/19 19:05:17.542: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:05:17.542: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/19 19:05:17.892: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/19 19:05:17.892: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/19 19:05:17.892: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/19 19:05:17.897: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/19 19:05:25.428: [pfcp] WARNING: [1] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:05:28.901: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:05:36.424: [pfcp] WARNING: [2] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:05:39.911: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:05:47.418: [pfcp] WARNING: [3] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:05:50.915: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:05:58.424: [pfcp] WARNING: [4] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:06:01.920: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:06:09.439: [pfcp] WARNING: [5] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:06:12.925: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:06:20.443: [pfcp] WARNING: [6] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:06:23.955: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:06:31.463: [pfcp] WARNING: [7] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:06:34.959: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:06:42.467: [pfcp] WARNING: [8] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:06:45.963: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:06:53.469: [pfcp] WARNING: [9] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:06:56.969: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:07:04.481: [pfcp] WARNING: [10] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:07:07.973: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:07:15.483: [pfcp] WARNING: [11] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:07:18.978: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:07:26.488: [pfcp] WARNING: [12] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:07:29.983: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:07:37.490: [pfcp] WARNING: [13] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:07:40.988: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:07:48.500: [pfcp] WARNING: [14] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:07:51.992: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:07:59.505: [pfcp] WARNING: [15] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:08:02.997: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:08:10.520: [pfcp] WARNING: [16] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:08:14.000: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:08:21.511: [pfcp] WARNING: [17] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:08:25.004: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:08:32.560: [pfcp] WARNING: [18] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:08:36.010: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:08:43.532: [pfcp] WARNING: [19] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:08:47.012: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:08:54.518: [pfcp] WARNING: [20] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:08:58.016: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:09:05.524: [pfcp] WARNING: [21] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:09:09.020: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:09:16.527: [pfcp] WARNING: [22] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:09:20.024: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:09:27.535: [pfcp] WARNING: [23] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:09:31.027: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:09:38.537: [pfcp] WARNING: [24] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:09:42.032: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:09:49.544: [pfcp] WARNING: [25] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:09:53.036: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:10:00.544: [pfcp] WARNING: [26] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:10:04.040: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:10:11.553: [pfcp] WARNING: [27] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:10:15.045: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:10:22.569: [pfcp] WARNING: [28] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:10:26.049: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:10:33.569: [pfcp] WARNING: [29] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:10:37.052: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:10:44.566: [pfcp] WARNING: [30] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:10:48.056: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:10:55.565: [pfcp] WARNING: [31] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:10:59.060: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:11:06.565: [pfcp] WARNING: [32] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:11:10.064: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:11:17.607: [pfcp] WARNING: [33] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:11:21.069: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:11:28.604: [pfcp] WARNING: [34] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:11:32.074: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:11:39.580: [pfcp] WARNING: [35] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:11:43.078: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:11:50.594: [pfcp] WARNING: [36] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:11:54.087: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:12:01.595: [pfcp] WARNING: [37] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:12:05.091: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:12:12.627: [pfcp] WARNING: [38] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:12:16.096: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:12:23.618: [pfcp] WARNING: [39] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:12:27.100: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:12:34.607: [pfcp] WARNING: [40] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:12:38.104: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:12:45.611: [pfcp] WARNING: [41] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:12:49.108: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:12:56.615: [pfcp] WARNING: [42] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:13:00.112: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:13:07.620: [pfcp] WARNING: [43] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:13:11.120: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:13:18.628: [pfcp] WARNING: [44] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:13:22.125: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:13:29.633: [pfcp] WARNING: [45] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:13:33.129: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:13:40.638: [pfcp] WARNING: [46] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:13:44.132: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:13:51.649: [pfcp] WARNING: [47] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:13:55.137: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:14:02.644: [pfcp] WARNING: [48] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:14:06.143: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:14:13.678: [pfcp] WARNING: [49] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:14:17.147: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:14:24.654: [pfcp] WARNING: [50] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:14:28.150: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:14:35.661: [pfcp] WARNING: [51] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:14:39.155: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:14:46.664: [pfcp] WARNING: [52] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:14:50.160: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:14:57.668: [pfcp] WARNING: [53] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:15:01.173: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:15:08.689: [pfcp] WARNING: [54] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:15:12.177: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:15:19.685: [pfcp] WARNING: [55] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:15:23.180: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:15:30.689: [pfcp] WARNING: [56] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:15:34.186: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:15:41.704: [pfcp] WARNING: [57] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:15:45.191: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:15:52.700: [pfcp] WARNING: [58] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:15:56.193: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:16:03.721: [pfcp] WARNING: [59] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:16:07.196: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:16:14.704: [pfcp] WARNING: [60] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:16:18.200: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:16:25.707: [pfcp] WARNING: [61] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:16:29.205: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:16:36.714: [pfcp] WARNING: [62] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:16:40.209: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:16:47.715: [pfcp] WARNING: [63] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:16:51.213: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:16:58.722: [pfcp] WARNING: [64] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:17:02.218: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:17:09.727: [pfcp] WARNING: [65] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:17:13.221: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:17:20.925: [pfcp] WARNING: [66] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:17:24.235: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:17:31.744: [pfcp] WARNING: [67] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:17:35.241: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:17:42.754: [pfcp] WARNING: [68] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:17:46.244: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:17:53.752: [pfcp] WARNING: [69] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:17:57.248: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:18:04.757: [pfcp] WARNING: [70] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:18:08.250: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:18:15.759: [pfcp] WARNING: [71] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:18:19.254: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:18:26.764: [pfcp] WARNING: [72] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:18:30.259: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:18:37.781: [pfcp] WARNING: [73] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:18:41.263: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:18:48.773: [pfcp] WARNING: [74] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:18:52.268: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:18:59.777: [pfcp] WARNING: [75] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:19:03.272: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:19:10.781: [pfcp] WARNING: [76] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:19:14.276: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:19:21.784: [pfcp] WARNING: [77] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:19:25.281: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:19:32.800: [pfcp] WARNING: [78] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:19:36.284: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:19:43.799: [pfcp] WARNING: [79] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:19:47.288: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:19:54.797: [pfcp] WARNING: [80] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:19:58.291: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:20:05.803: [pfcp] WARNING: [81] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:20:09.296: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:20:16.803: [pfcp] WARNING: [82] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:20:20.301: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:20:27.810: [pfcp] WARNING: [83] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:20:31.305: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:20:38.820: [pfcp] WARNING: [84] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:20:42.311: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:20:49.820: [pfcp] WARNING: [85] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:20:53.319: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:21:00.835: [pfcp] WARNING: [86] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:21:04.324: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:21:11.832: [pfcp] WARNING: [87] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:21:15.330: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:21:22.852: [pfcp] WARNING: [88] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:21:26.335: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:21:33.846: [pfcp] WARNING: [89] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:21:37.339: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:21:44.850: [pfcp] WARNING: [90] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:21:48.344: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:21:55.863: [pfcp] WARNING: [91] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:21:59.348: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:22:06.859: [pfcp] WARNING: [92] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:22:10.352: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:22:17.865: [pfcp] WARNING: [93] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:22:21.372: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:22:28.886: [pfcp] WARNING: [94] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:22:32.376: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:22:39.888: [pfcp] WARNING: [95] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:22:43.380: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:22:50.887: [pfcp] WARNING: [96] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:22:54.384: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:23:01.896: [pfcp] WARNING: [97] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:23:05.388: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:23:12.896: [pfcp] WARNING: [98] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:23:16.402: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:23:23.909: [pfcp] WARNING: [99] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:23:27.406: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:23:34.914: [pfcp] WARNING: [100] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:23:38.411: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:23:45.920: [pfcp] WARNING: [101] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:23:49.416: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:23:56.926: [pfcp] WARNING: [102] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:24:00.420: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:24:07.929: [pfcp] WARNING: [103] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:24:11.424: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:24:18.933: [pfcp] WARNING: [104] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:24:22.435: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:24:29.944: [pfcp] WARNING: [105] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:24:33.440: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:24:40.952: [pfcp] WARNING: [106] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:24:44.444: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:24:51.953: [pfcp] WARNING: [107] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:24:55.462: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:25:02.985: [pfcp] WARNING: [108] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:25:06.471: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:25:13.979: [pfcp] WARNING: [109] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:25:17.476: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:25:24.984: [pfcp] WARNING: [110] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:25:28.574: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:25:36.080: [pfcp] WARNING: [111] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:25:39.583: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:25:47.094: [pfcp] WARNING: [112] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:25:50.636: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:25:58.145: [pfcp] WARNING: [113] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:26:01.677: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:26:09.205: [pfcp] WARNING: [114] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:26:12.682: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:26:20.190: [pfcp] WARNING: [115] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:26:23.684: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:26:31.196: [pfcp] WARNING: [116] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:26:34.688: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:26:42.197: [pfcp] WARNING: [117] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:26:45.694: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:26:53.205: [pfcp] WARNING: [118] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:26:56.698: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:27:04.207: [pfcp] WARNING: [119] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:27:07.703: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:27:15.212: [pfcp] WARNING: [120] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:27:18.707: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:27:26.228: [pfcp] WARNING: [121] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:27:29.711: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:27:37.225: [pfcp] WARNING: [122] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:27:40.718: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:27:48.240: [pfcp] WARNING: [123] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:27:51.722: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:27:59.229: [pfcp] WARNING: [124] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:28:02.726: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:28:10.237: [pfcp] WARNING: [125] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:28:15.240: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:28:22.777: [pfcp] WARNING: [126] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:28:26.245: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:28:33.823: [pfcp] WARNING: [127] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:28:37.249: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:28:44.766: [pfcp] WARNING: [128] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:28:48.254: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:28:55.766: [pfcp] WARNING: [129] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:28:59.257: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:29:06.764: [pfcp] WARNING: [130] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:29:10.259: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:29:17.771: [pfcp] WARNING: [131] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:29:21.264: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:29:28.772: [pfcp] WARNING: [132] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:29:32.268: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:29:39.776: [pfcp] WARNING: [133] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:29:43.272: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:29:50.779: [pfcp] WARNING: [134] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:29:54.276: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:30:01.785: [pfcp] WARNING: [135] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:30:05.280: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:30:12.789: [pfcp] WARNING: [136] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:30:16.284: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:30:23.792: [pfcp] WARNING: [137] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:30:27.297: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:30:34.806: [pfcp] WARNING: [138] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:30:38.300: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:30:45.851: [pfcp] WARNING: [139] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:30:49.303: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:30:56.811: [pfcp] WARNING: [140] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:31:00.308: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:31:07.823: [pfcp] WARNING: [141] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:31:11.313: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:31:18.824: [pfcp] WARNING: [142] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:31:22.317: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:31:29.825: [pfcp] WARNING: [143] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:31:33.322: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:31:40.831: [pfcp] WARNING: [144] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:31:44.324: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:31:51.833: [pfcp] WARNING: [145] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:31:55.329: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:32:02.836: [pfcp] WARNING: [146] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:32:06.333: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:32:13.844: [pfcp] WARNING: [147] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:32:17.336: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:32:24.884: [pfcp] WARNING: [148] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:32:28.341: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:32:35.862: [pfcp] WARNING: [149] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:32:39.345: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:32:46.882: [pfcp] WARNING: [150] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:32:50.355: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:32:57.886: [pfcp] WARNING: [151] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:33:01.356: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:33:08.905: [pfcp] WARNING: [152] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:33:12.362: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:33:19.869: [pfcp] WARNING: [153] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:33:23.366: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:33:30.878: [pfcp] WARNING: [154] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:33:34.368: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:33:41.875: [pfcp] WARNING: [155] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:33:45.372: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:33:52.881: [pfcp] WARNING: [156] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:33:56.376: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:34:03.884: [pfcp] WARNING: [157] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:34:07.380: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:34:14.895: [pfcp] WARNING: [158] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:34:18.385: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:34:25.892: [pfcp] WARNING: [159] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:34:29.390: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:34:36.897: [pfcp] WARNING: [160] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:34:40.393: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:34:47.901: [pfcp] WARNING: [161] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:34:51.398: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:34:58.906: [pfcp] WARNING: [162] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:35:02.402: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:35:09.909: [pfcp] WARNING: [163] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:35:13.404: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:35:20.945: [pfcp] WARNING: [164] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:35:24.410: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:35:31.918: [pfcp] WARNING: [165] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:35:35.414: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:35:42.923: [pfcp] WARNING: [166] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:35:46.419: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:35:53.971: [pfcp] WARNING: [167] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:35:57.427: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:36:04.946: [pfcp] WARNING: [168] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:36:08.432: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:36:16.004: [pfcp] WARNING: [169] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:36:19.437: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:36:26.941: [pfcp] WARNING: [170] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:36:30.441: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:36:37.949: [pfcp] WARNING: [171] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:36:41.445: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:36:48.952: [pfcp] WARNING: [172] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:36:52.449: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:36:59.961: [pfcp] WARNING: [173] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:37:03.452: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:37:10.960: [pfcp] WARNING: [174] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:37:14.456: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:37:21.963: [pfcp] WARNING: [175] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:37:25.460: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:37:32.966: [pfcp] WARNING: [176] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:37:36.463: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:37:43.972: [pfcp] WARNING: [177] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:37:47.469: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:37:54.976: [pfcp] WARNING: [178] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:37:58.472: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:38:05.981: [pfcp] WARNING: [179] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:38:09.476: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:38:16.983: [pfcp] WARNING: [180] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:38:20.480: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:38:27.988: [pfcp] WARNING: [181] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:38:31.485: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:38:38.995: [pfcp] WARNING: [182] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:38:42.489: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:38:49.998: [pfcp] WARNING: [183] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:38:53.493: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:39:01.008: [pfcp] WARNING: [184] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:39:04.496: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:39:12.004: [pfcp] WARNING: [185] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:39:15.497: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:39:23.004: [pfcp] WARNING: [186] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:39:26.500: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:39:34.008: [pfcp] WARNING: [187] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:39:37.504: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:39:45.012: [pfcp] WARNING: [188] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:39:48.509: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:39:56.016: [pfcp] WARNING: [189] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:39:59.512: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:40:07.020: [pfcp] WARNING: [190] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:40:10.514: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:40:18.023: [pfcp] WARNING: [191] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:40:21.519: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:40:29.028: [pfcp] WARNING: [192] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:40:32.523: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:40:40.032: [pfcp] WARNING: [193] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:40:43.528: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:40:51.042: [pfcp] WARNING: [194] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:40:54.533: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:41:02.049: [pfcp] WARNING: [195] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:41:05.537: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:41:13.059: [pfcp] WARNING: [196] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:41:16.542: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:41:24.049: [pfcp] WARNING: [197] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:41:27.545: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:41:35.054: [pfcp] WARNING: [198] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:41:38.549: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:41:46.058: [pfcp] WARNING: [199] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:41:49.554: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:41:57.061: [pfcp] WARNING: [200] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:42:00.556: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:42:08.075: [pfcp] WARNING: [201] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:42:11.561: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:42:19.069: [pfcp] WARNING: [202] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:42:22.564: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:42:30.085: [pfcp] WARNING: [203] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:42:33.568: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:42:41.078: [pfcp] WARNING: [204] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:42:44.590: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:42:52.115: [pfcp] WARNING: [205] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:42:55.593: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:43:03.102: [pfcp] WARNING: [206] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:43:06.598: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:43:14.106: [pfcp] WARNING: [207] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:43:17.602: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:43:25.117: [pfcp] WARNING: [208] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:43:28.610: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:43:36.119: [pfcp] WARNING: [209] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:43:39.611: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:43:47.120: [pfcp] WARNING: [210] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:43:50.612: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:43:58.126: [pfcp] WARNING: [211] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:44:01.617: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:44:09.127: [pfcp] WARNING: [212] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:44:12.622: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:44:20.131: [pfcp] WARNING: [213] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:44:23.624: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:44:31.134: [pfcp] WARNING: [214] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:44:34.628: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:44:42.137: [pfcp] WARNING: [215] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:44:45.632: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:44:53.147: [pfcp] WARNING: [216] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:44:56.660: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:45:04.167: [pfcp] WARNING: [217] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:45:07.664: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:45:15.186: [pfcp] WARNING: [218] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:45:18.669: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:45:26.192: [pfcp] WARNING: [219] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:45:29.686: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:45:37.195: [pfcp] WARNING: [220] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:45:40.698: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:45:48.229: [pfcp] WARNING: [221] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:45:51.701: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:45:59.210: [pfcp] WARNING: [222] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:46:02.706: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:46:10.216: [pfcp] WARNING: [223] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:46:13.709: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:46:21.273: [pfcp] WARNING: [224] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:46:24.714: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:46:32.234: [pfcp] WARNING: [225] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:46:35.719: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:46:43.228: [pfcp] WARNING: [226] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:46:46.724: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:46:54.232: [pfcp] WARNING: [227] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:46:57.728: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:47:05.253: [pfcp] WARNING: [228] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:47:08.733: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:47:16.240: [pfcp] WARNING: [229] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:47:19.734: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:47:27.244: [pfcp] WARNING: [230] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:47:30.740: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:47:38.252: [pfcp] WARNING: [231] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:47:41.744: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:47:49.254: [pfcp] WARNING: [232] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:47:52.749: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:48:00.263: [pfcp] WARNING: [233] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:48:03.754: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:48:11.282: [pfcp] WARNING: [234] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:48:14.808: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:48:22.317: [pfcp] WARNING: [235] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:48:25.813: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:48:33.321: [pfcp] WARNING: [236] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:48:36.817: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:48:44.338: [pfcp] WARNING: [237] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:48:47.822: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:48:55.336: [pfcp] WARNING: [238] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:48:58.826: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:49:06.332: [pfcp] WARNING: [239] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:49:09.828: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:49:17.336: [pfcp] WARNING: [240] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:49:20.832: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:49:28.341: [pfcp] WARNING: [241] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:49:31.837: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:49:39.347: [pfcp] WARNING: [242] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:49:42.841: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/19 19:49:50.348: [pfcp] WARNING: [243] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/19 19:49:53.847: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+Open5GS daemon v2.7.0
+
+01/20 06:23:21.118: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:23:21.118: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:23:21.331: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:23:21.336: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:23:21.336: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:23:21.359: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:23:28.859: [pfcp] WARNING: [1] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:23:32.338: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/20 06:23:39.847: [pfcp] WARNING: [2] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:23:43.342: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/20 06:23:50.850: [pfcp] WARNING: [3] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:23:54.347: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/20 06:24:01.858: [pfcp] WARNING: [4] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:24:05.351: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/20 06:24:12.863: [pfcp] WARNING: [5] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:24:16.354: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+Open5GS daemon v2.7.0
+
+01/20 06:25:27.729: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:25:27.729: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:25:28.197: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:25:28.198: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:25:28.198: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:25:28.203: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:25:35.707: [pfcp] WARNING: [1] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:25:39.201: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/20 06:25:46.714: [pfcp] WARNING: [2] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:25:50.211: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+01/20 06:25:57.724: [pfcp] WARNING: [3] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.6]:8805 (../lib/pfcp/xact.c:606)
+01/20 06:26:01.223: [sgwc] WARNING: Retry association with peer [172.22.0.6]:8805 failed (../src/sgwc/pfcp-sm.c:106)
+Open5GS daemon v2.7.0
+
+01/20 06:32:26.257: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:32:26.257: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:32:26.816: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:32:26.816: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:32:26.816: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:32:26.817: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:32:26.818: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 06:33:28.973: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:33:28.973: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:33:29.149: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:33:29.150: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:33:29.151: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:33:29.159: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:33:29.159: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+01/20 06:33:31.497: [sgwc] WARNING: PFCP[REQ] has already been associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:277)
+Open5GS daemon v2.7.0
+
+01/20 06:34:17.018: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:34:17.018: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:34:17.515: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:34:17.515: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:34:17.515: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:34:17.523: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:34:17.523: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+01/20 06:34:20.005: [sgwc] WARNING: PFCP[REQ] has already been associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:277)
+Open5GS daemon v2.7.0
+
+01/20 06:36:56.719: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:36:56.719: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:36:57.189: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:36:57.189: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:36:57.189: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:36:57.195: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:36:59.698: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 06:38:41.763: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:38:41.763: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:38:42.101: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:38:42.102: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:38:42.102: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:38:42.105: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:38:42.195: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+01/20 06:38:44.607: [sgwc] WARNING: PFCP[RSP] has already been associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:284)
+Open5GS daemon v2.7.0
+
+01/20 06:40:36.652: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:40:36.652: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:40:37.089: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:40:37.089: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:40:37.097: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:40:37.101: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:40:39.605: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 06:51:33.241: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:51:33.241: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:51:33.545: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:51:33.546: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:51:33.546: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:51:33.548: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:51:36.057: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 06:58:18.694: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:58:18.694: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 06:58:19.109: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 06:58:19.109: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 06:58:19.110: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 06:58:19.124: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 06:58:21.625: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:05:42.783: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:05:42.783: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:05:43.089: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:05:43.089: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:05:43.089: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:05:43.091: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:05:43.093: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:15:58.771: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:15:58.771: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:15:58.985: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:15:58.985: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:15:58.985: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:15:58.986: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:16:01.498: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:21:27.046: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:21:27.046: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:21:27.452: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:21:27.452: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:21:27.452: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:21:27.456: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:21:27.457: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:37:09.586: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:37:09.586: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:37:09.942: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:37:09.942: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:37:09.942: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:37:09.943: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:37:10.005: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:46:37.770: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:46:37.770: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:46:38.035: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:46:38.035: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:46:38.035: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:46:38.039: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+01/20 07:46:38.040: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:51:21.458: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:21.458: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:21.810: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:51:21.810: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:51:21.810: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:51:21.812: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:51:24.319: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:51:56.663: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:56.663: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:56.785: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:51:56.785: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:51:56.785: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:51:56.786: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:51:59.291: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:56:44.147: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:56:44.147: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:56:44.393: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:56:44.393: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:56:44.393: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:56:44.400: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:56:44.401: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:57:18.892: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:57:18.892: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:57:19.249: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:57:19.249: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:57:19.249: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:57:19.250: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:57:21.758: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:59:23.997: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:23.997: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:24.508: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:59:24.509: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:59:24.509: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:59:24.512: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:59:24.524: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 07:59:57.254: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:57.254: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:57.745: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 07:59:57.745: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 07:59:57.745: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 07:59:57.746: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 07:59:57.750: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:02:20.330: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:02:20.330: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:02:20.647: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:02:20.647: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:02:20.647: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:02:20.651: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:02:23.152: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:18:54.385: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:18:54.385: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:18:54.615: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:18:54.616: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:18:54.616: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:18:54.617: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:18:57.122: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:20:06.562: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:20:06.562: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:20:06.886: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:20:06.886: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:20:06.886: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:20:06.890: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:20:09.390: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:22:16.109: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:22:16.109: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:22:16.388: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:22:16.389: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:22:16.389: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:22:16.390: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:22:18.893: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:29:22.109: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:29:22.109: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:29:22.608: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:29:22.608: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:29:22.608: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:29:22.609: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:29:25.117: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:30:11.038: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:30:11.038: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:30:11.439: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:30:11.439: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:30:11.439: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:30:11.460: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:30:13.944: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:34:52.037: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:34:52.038: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:34:52.393: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:34:52.393: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:34:52.393: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:34:52.398: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:34:54.899: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:37:20.622: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:37:20.622: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:37:20.961: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:37:20.961: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:37:20.961: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:37:20.963: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:37:23.469: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:43:39.039: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:43:39.039: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:43:39.325: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:43:39.326: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:43:39.326: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:43:39.333: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:43:39.333: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:51:23.885: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:51:23.885: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:51:24.266: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:51:24.267: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:51:24.267: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:51:24.269: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:52:08.305: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:52:08.305: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:52:08.770: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:52:08.771: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:52:08.771: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:52:08.792: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:52:08.793: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:53:57.094: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:53:57.094: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:53:57.643: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:53:57.643: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:53:57.643: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:53:57.643: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:53:57.654: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:55:00.408: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:00.408: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:00.677: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:55:00.678: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:55:00.679: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:55:00.685: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:55:00.686: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/20 08:55:35.595: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:35.595: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:35.968: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/20 08:55:35.969: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/20 08:55:35.969: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/20 08:55:35.970: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/20 08:55:38.477: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/26 15:25:25.250: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/26 15:25:25.250: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/26 15:25:25.673: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/26 15:25:25.674: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/26 15:25:25.674: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/26 15:25:25.676: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/26 15:25:28.178: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/26 16:22:48.851: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:22:48.851: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/26 16:22:49.319: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/26 16:22:49.320: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/26 16:22:49.320: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/26 16:22:49.321: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/26 16:22:49.335: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/26 16:24:15.434: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:24:15.435: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/26 16:24:15.655: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/26 16:24:15.655: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/26 16:24:15.655: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/26 16:24:15.655: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/26 16:24:16.687: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/26 16:27:13.009: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:27:13.010: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/26 16:27:13.557: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/26 16:27:13.557: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/26 16:27:13.558: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/26 16:27:13.559: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/26 16:27:13.576: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/26 16:43:05.792: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:43:05.792: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/26 16:43:06.371: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/26 16:43:06.380: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/26 16:43:06.385: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/26 16:43:06.424: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/26 16:43:08.895: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)
+Open5GS daemon v2.7.0
+
+01/26 16:44:46.593: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/sgwc.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:44:46.593: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/sgwc.log' (../lib/app/ogs-init.c:133)
+01/26 16:44:46.958: [gtp] INFO: gtp_server() [172.22.0.5]:2123 (../lib/gtp/path.c:30)
+01/26 16:44:46.958: [pfcp] INFO: pfcp_server() [172.22.0.5]:8805 (../lib/pfcp/path.c:30)
+01/26 16:44:46.959: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.6]:8805 (../lib/pfcp/path.c:61)
+01/26 16:44:46.962: [app] INFO: SGW-C initialize...done (../src/sgwc/app.c:31)
+01/26 16:44:46.963: [sgwc] INFO: PFCP associated [172.22.0.6]:8805 (../src/sgwc/pfcp-sm.c:183)

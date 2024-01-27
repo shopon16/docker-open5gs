@@ -1,0 +1,491 @@
+Open5GS daemon v2.7.0
+
+01/19 16:00:22.070: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:22.071: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:22.071: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:22.071: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fac89b5e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fac89b54019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fac89b886c7]
+./open5gs-pcrfd(+0x56cd) [0x5653bd1916cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fac897d9083]
+./open5gs-pcrfd(+0x4d8e) [0x5653bd190d8e]
+Open5GS daemon v2.7.0
+
+01/19 16:01:01.594: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:01:01.594: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 16:01:01.594: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:01:01.595: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f75bb93a2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f75bb930019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f75bb9646c7]
+./open5gs-pcrfd(+0x56cd) [0x55ef89d696cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f75bb5b5083]
+./open5gs-pcrfd(+0x4d8e) [0x55ef89d68d8e]
+Open5GS daemon v2.7.0
+
+01/19 16:02:52.907: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:02:52.907: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 16:02:52.907: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:02:52.908: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe215f692bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe215f5f019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe215f936c7]
+./open5gs-pcrfd(+0x56cd) [0x55f61ccd56cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe215be4083]
+./open5gs-pcrfd(+0x4d8e) [0x55f61ccd4d8e]
+Open5GS daemon v2.7.0
+
+01/19 16:04:58.608: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:04:58.608: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 16:04:58.608: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:04:58.609: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fa348f7e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fa348f74019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fa348fa86c7]
+./open5gs-pcrfd(+0x56cd) [0x562551e9d6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa348bf9083]
+./open5gs-pcrfd(+0x4d8e) [0x562551e9cd8e]
+Open5GS daemon v2.7.0
+
+01/19 17:45:04.269: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:04.269: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:04.269: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:04.269: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fa098a732bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fa098a69019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fa098a9d6c7]
+./open5gs-pcrfd(+0x56cd) [0x56103a5456cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa0986ee083]
+./open5gs-pcrfd(+0x4d8e) [0x56103a544d8e]
+Open5GS daemon v2.7.0
+
+01/19 17:45:27.229: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:27.230: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:27.230: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:27.231: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fd52e42b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fd52e421019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fd52e4556c7]
+./open5gs-pcrfd(+0x56cd) [0x56540c7176cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fd52e0a6083]
+./open5gs-pcrfd(+0x4d8e) [0x56540c716d8e]
+Open5GS daemon v2.7.0
+
+01/19 17:47:17.390: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:47:17.390: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 17:47:17.390: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:47:17.390: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f9ea5adc2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f9ea5ad2019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f9ea5b066c7]
+./open5gs-pcrfd(+0x56cd) [0x55a14f2bb6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f9ea5757083]
+./open5gs-pcrfd(+0x4d8e) [0x55a14f2bad8e]
+Open5GS daemon v2.7.0
+
+01/19 18:38:40.409: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:38:40.410: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:38:40.410: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:38:40.410: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f316500e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f3165004019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f31650386c7]
+./open5gs-pcrfd(+0x56cd) [0x56305f5fd6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3164c89083]
+./open5gs-pcrfd(+0x4d8e) [0x56305f5fcd8e]
+Open5GS daemon v2.7.0
+
+01/19 18:40:36.162: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:40:36.162: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:40:36.162: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:40:36.162: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f95e2fd72bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f95e2fcd019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f95e30016c7]
+./open5gs-pcrfd(+0x56cd) [0x5573a27e06cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f95e2c52083]
+./open5gs-pcrfd(+0x4d8e) [0x5573a27dfd8e]
+Open5GS daemon v2.7.0
+
+01/19 18:42:52.633: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:42:52.633: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:42:52.633: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:42:52.634: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe89bdfa2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe89bdf0019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe89be246c7]
+./open5gs-pcrfd(+0x56cd) [0x556fe03dd6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe89ba75083]
+./open5gs-pcrfd(+0x4d8e) [0x556fe03dcd8e]
+Open5GS daemon v2.7.0
+
+01/19 18:43:43.362: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:43:43.363: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:43:43.364: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:43:43.364: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f26957452bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f269573b019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f269576f6c7]
+./open5gs-pcrfd(+0x56cd) [0x557f2bed96cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f26953c0083]
+./open5gs-pcrfd(+0x4d8e) [0x557f2bed8d8e]
+Open5GS daemon v2.7.0
+
+01/19 18:45:51.327: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:45:51.327: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:45:51.328: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:45:51.328: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc9111a12bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc911197019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc9111cb6c7]
+./open5gs-pcrfd(+0x56cd) [0x5638a47876cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc910e1c083]
+./open5gs-pcrfd(+0x4d8e) [0x5638a4786d8e]
+Open5GS daemon v2.7.0
+
+01/19 18:47:57.786: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:47:57.787: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:47:57.787: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:47:57.788: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f89a06d42bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f89a06ca019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f89a06fe6c7]
+./open5gs-pcrfd(+0x56cd) [0x562cf1e2f6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f89a034f083]
+./open5gs-pcrfd(+0x4d8e) [0x562cf1e2ed8e]
+Open5GS daemon v2.7.0
+
+01/19 18:48:20.397: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:48:20.397: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 18:48:20.398: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:48:20.398: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fab279952bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fab2798b019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fab279bf6c7]
+./open5gs-pcrfd(+0x56cd) [0x557fe8d1a6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fab27610083]
+./open5gs-pcrfd(+0x4d8e) [0x557fe8d19d8e]
+Open5GS daemon v2.7.0
+
+01/19 19:03:27.440: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:03:27.441: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 19:03:27.442: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:03:27.443: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f57d4cc22bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f57d4cb8019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f57d4cec6c7]
+./open5gs-pcrfd(+0x56cd) [0x561c8ed8a6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f57d493d083]
+./open5gs-pcrfd(+0x4d8e) [0x561c8ed89d8e]
+Open5GS daemon v2.7.0
+
+01/19 19:05:26.304: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:05:26.304: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/19 19:05:26.304: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:05:26.304: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fbaf683a2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fbaf6830019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fbaf68646c7]
+./open5gs-pcrfd(+0x56cd) [0x55cdc8c736cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fbaf64b5083]
+./open5gs-pcrfd(+0x4d8e) [0x55cdc8c72d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:23:30.832: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:23:30.832: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:23:30.832: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:23:30.833: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f27095cb2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f27095c1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f27095f56c7]
+./open5gs-pcrfd(+0x56cd) [0x55a9766166cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2709246083]
+./open5gs-pcrfd(+0x4d8e) [0x55a976615d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:25:36.771: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:25:36.771: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:25:36.771: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:25:36.771: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f20a0f252bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f20a0f1b019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f20a0f4f6c7]
+./open5gs-pcrfd(+0x56cd) [0x5598388926cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f20a0ba0083]
+./open5gs-pcrfd(+0x4d8e) [0x559838891d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:32:34.388: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:32:34.389: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:32:34.389: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:32:34.391: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe3b732d2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe3b7323019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe3b73576c7]
+./open5gs-pcrfd(+0x56cd) [0x5589a1aaf6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe3b6fa8083]
+./open5gs-pcrfd(+0x4d8e) [0x5589a1aaed8e]
+Open5GS daemon v2.7.0
+
+01/20 06:33:38.148: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:33:38.148: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:33:38.148: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:33:38.149: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7efd768f22bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7efd768e8019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7efd7691c6c7]
+./open5gs-pcrfd(+0x56cd) [0x5562738c66cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7efd7656d083]
+./open5gs-pcrfd(+0x4d8e) [0x5562738c5d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:34:25.575: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:34:25.575: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:34:25.575: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:34:25.575: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f32a6e702bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f32a6e66019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f32a6e9a6c7]
+./open5gs-pcrfd(+0x56cd) [0x55fe9602e6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f32a6aeb083]
+./open5gs-pcrfd(+0x4d8e) [0x55fe9602dd8e]
+Open5GS daemon v2.7.0
+
+01/20 06:36:23.833: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:36:23.833: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:36:23.834: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:36:23.834: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f8e3600d2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f8e36003019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f8e360376c7]
+./open5gs-pcrfd(+0x56cd) [0x555e6f3fd6cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8e35c88083]
+./open5gs-pcrfd(+0x4d8e) [0x555e6f3fcd8e]
+Open5GS daemon v2.7.0
+
+01/20 06:37:05.100: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:37:05.100: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:37:05.101: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:37:05.102: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f994f1002bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f994f0f6019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f994f12a6c7]
+./open5gs-pcrfd(+0x56cd) [0x55628ef376cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f994ed7b083]
+./open5gs-pcrfd(+0x4d8e) [0x55628ef36d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:38:51.315: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:38:51.315: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:38:51.315: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:38:51.316: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f34c67f92bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f34c67ef019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f34c68236c7]
+./open5gs-pcrfd(+0x56cd) [0x56482d1c26cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f34c6474083]
+./open5gs-pcrfd(+0x4d8e) [0x56482d1c1d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:40:45.525: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:40:45.525: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:40:45.525: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:40:45.525: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fa953bed2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fa953be3019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fa953c176c7]
+./open5gs-pcrfd(+0x56cd) [0x55a107d876cd]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fa953868083]
+./open5gs-pcrfd(+0x4d8e) [0x55a107d86d8e]
+Open5GS daemon v2.7.0
+
+01/20 06:50:28.042: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:50:28.042: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:50:28.083: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 06:50:28.198: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 06:51:42.787: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:51:42.787: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:51:42.801: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 06:51:43.146: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 06:58:27.679: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:58:27.680: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 06:58:27.685: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 06:58:28.018: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:05:52.029: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:05:52.029: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:05:52.043: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:05:52.136: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:21:36.191: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:21:36.191: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:21:36.203: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:21:36.380: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:46:47.150: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:46:47.150: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:46:47.158: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:46:47.350: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:51:30.093: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:30.093: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:30.110: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:51:30.203: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:52:05.208: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:52:05.208: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:52:05.219: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:52:05.360: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:56:53.382: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:56:53.382: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:56:53.392: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:56:53.501: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:57:27.427: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:57:27.427: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:57:27.452: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:57:27.625: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:59:32.841: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:32.842: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:32.850: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:59:33.019: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:00:06.434: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:00:06.434: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:00:06.442: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:00:06.724: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:02:29.307: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:02:29.307: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:02:29.312: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:02:29.576: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:19:04.086: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:19:04.086: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:19:04.103: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:19:05.002: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:20:15.696: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:20:15.696: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:20:15.703: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:20:15.941: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:22:25.795: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:22:25.795: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:22:25.815: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:22:26.217: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:29:31.247: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:29:31.247: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:29:31.253: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:29:31.381: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:30:19.870: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:30:19.870: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:30:19.890: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:30:20.064: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/20 08:34:01.232: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#13): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:34:59.679: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:34:59.679: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:34:59.696: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:34:59.825: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:37:30.011: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:37:30.011: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:37:30.022: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:37:30.173: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/20 08:37:30.236: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:43:48.561: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:43:48.561: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:43:48.585: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:43:48.792: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/20 08:43:48.865: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:52:16.814: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:52:16.814: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:52:16.828: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:52:16.910: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/20 08:52:16.973: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:54:05.269: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:54:05.269: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:54:05.291: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:54:05.592: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:55:44.448: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:44.450: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:44.461: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:55:44.662: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/20 08:55:44.727: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/26 15:25:34.404: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/26 15:25:34.404: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/26 15:25:34.415: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 15:25:34.676: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/26 15:25:34.798: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/26 16:22:57.175: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:22:57.175: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/26 16:22:57.189: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:22:57.323: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/26 16:22:57.357: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/26 16:24:21.412: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:24:21.413: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/26 16:24:21.444: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:24:21.926: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/26 16:24:21.966: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/26 16:27:21.649: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:27:21.649: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/26 16:27:21.660: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:27:21.972: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/26 16:27:22.033: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/26 16:43:14.164: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:43:14.164: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/26 16:43:14.198: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:43:14.389: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/26 16:43:14.423: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/26 16:44:55.500: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:44:55.500: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:133)
+01/26 16:44:55.503: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:44:55.706: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+01/26 16:44:55.742: [diam] INFO: CONNECTED TO 'smf.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)

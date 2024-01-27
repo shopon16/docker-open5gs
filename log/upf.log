@@ -1,0 +1,708 @@
+Open5GS daemon v2.6.6
+
+01/19 15:03:10.381: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:10.381: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:10.577: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/19 15:03:10.577: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/19 15:03:10.577: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/19 15:03:10.578: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/19 15:03:10.589: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/19 15:03:10.590: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+01/19 15:03:12.900: [upf] WARNING: PFCP[REQ] has already been associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:270)
+Open5GS daemon v2.6.6
+
+01/19 15:03:57.876: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:57.876: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:58.113: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/19 15:03:58.130: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/19 15:03:58.130: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/19 15:03:58.131: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/19 15:03:58.133: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/19 15:03:58.140: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+01/19 15:04:00.228: [upf] WARNING: PFCP[REQ] has already been associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:270)
+Open5GS daemon v2.7.0
+
+01/19 15:51:49.059: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:51:49.059: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 15:51:49.059: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:51:49.059: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f4a7c36e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f4a7c364019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f4a7c3986c7]
+./open5gs-upfd(+0x832d) [0x5620b0c0032d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f4a7bd39083]
+./open5gs-upfd(+0x79ee) [0x5620b0bff9ee]
+Open5GS daemon v2.7.0
+
+01/19 15:53:27.500: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:53:27.500: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 15:53:27.500: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:53:27.501: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe1209fb2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe1209f1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe120a256c7]
+./open5gs-upfd(+0x832d) [0x5586a9fe532d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe1203c6083]
+./open5gs-upfd(+0x79ee) [0x5586a9fe49ee]
+Open5GS daemon v2.7.0
+
+01/19 15:54:24.490: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:54:24.490: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 15:54:24.490: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:54:24.490: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f0ff5b1d2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f0ff5b13019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f0ff5b476c7]
+./open5gs-upfd(+0x832d) [0x558c28f0832d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f0ff54e8083]
+./open5gs-upfd(+0x79ee) [0x558c28f079ee]
+Open5GS daemon v2.7.0
+
+01/19 15:57:16.142: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:57:16.142: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 15:57:16.142: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:57:16.142: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe6231ef2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe6231e5019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe6232196c7]
+./open5gs-upfd(+0x832d) [0x564bd805832d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe622bba083]
+./open5gs-upfd(+0x79ee) [0x564bd80579ee]
+Open5GS daemon v2.7.0
+
+01/19 15:58:08.306: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:58:08.306: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 15:58:08.306: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:58:08.306: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f3eff3ab2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f3eff3a1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f3eff3d56c7]
+./open5gs-upfd(+0x832d) [0x561c2c81832d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3efed76083]
+./open5gs-upfd(+0x79ee) [0x561c2c8179ee]
+Open5GS daemon v2.7.0
+
+01/19 16:00:13.129: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:13.129: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:13.138: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:13.138: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fefad1952bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fefad18b019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fefad1bf6c7]
+./open5gs-upfd(+0x832d) [0x55a6544c832d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fefacb60083]
+./open5gs-upfd(+0x79ee) [0x55a6544c79ee]
+Open5GS daemon v2.7.0
+
+01/19 16:00:51.185: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:51.185: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:51.185: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:51.185: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f911b2a32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f911b299019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f911b2cd6c7]
+./open5gs-upfd(+0x832d) [0x5566defcf32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f911ac6e083]
+./open5gs-upfd(+0x79ee) [0x5566defce9ee]
+Open5GS daemon v2.7.0
+
+01/19 16:02:45.053: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:02:45.053: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 16:02:45.053: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:02:45.053: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f9ecbd442bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f9ecbd3a019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f9ecbd6e6c7]
+./open5gs-upfd(+0x832d) [0x564c50a9b32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f9ecb70f083]
+./open5gs-upfd(+0x79ee) [0x564c50a9a9ee]
+Open5GS daemon v2.7.0
+
+01/19 16:04:49.630: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:04:49.630: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 16:04:49.630: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:04:49.631: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f7efc2722bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f7efc268019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f7efc29c6c7]
+./open5gs-upfd(+0x832d) [0x5564a995432d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7efbc3d083]
+./open5gs-upfd(+0x79ee) [0x5564a99539ee]
+Open5GS daemon v2.7.0
+
+01/19 17:44:57.884: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:44:57.885: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 17:44:57.885: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:44:57.885: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f2a4a3002bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2a4a2f6019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f2a4a32a6c7]
+./open5gs-upfd(+0x832d) [0x55981958e32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2a49ccb083]
+./open5gs-upfd(+0x79ee) [0x55981958d9ee]
+Open5GS daemon v2.7.0
+
+01/19 17:45:20.752: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:20.752: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:20.752: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:20.752: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f1d2200a2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f1d22000019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f1d220346c7]
+./open5gs-upfd(+0x832d) [0x55b39c94832d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f1d219d5083]
+./open5gs-upfd(+0x79ee) [0x55b39c9479ee]
+Open5GS daemon v2.7.0
+
+01/19 17:47:10.276: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:47:10.276: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 17:47:10.276: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:47:10.276: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f4a992ea2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f4a992e0019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f4a993146c7]
+./open5gs-upfd(+0x832d) [0x55c048fb732d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f4a98cb5083]
+./open5gs-upfd(+0x79ee) [0x55c048fb69ee]
+Open5GS daemon v2.7.0
+
+01/19 18:38:32.059: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:38:32.059: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:38:32.059: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:38:32.059: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f1b2614d2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f1b26143019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f1b261776c7]
+./open5gs-upfd(+0x832d) [0x55c96b22532d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f1b25b18083]
+./open5gs-upfd(+0x79ee) [0x55c96b2249ee]
+Open5GS daemon v2.7.0
+
+01/19 18:40:27.189: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:40:27.189: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:40:27.189: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:40:27.189: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f834e7272bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f834e71d019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f834e7516c7]
+./open5gs-upfd(+0x832d) [0x56246548e32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f834e0f2083]
+./open5gs-upfd(+0x79ee) [0x56246548d9ee]
+Open5GS daemon v2.7.0
+
+01/19 18:42:45.098: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:42:45.098: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:42:45.098: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:42:45.098: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f32901a32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f3290199019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f32901cd6c7]
+./open5gs-upfd(+0x832d) [0x55c3bf63932d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f328fb6e083]
+./open5gs-upfd(+0x79ee) [0x55c3bf6389ee]
+Open5GS daemon v2.7.0
+
+01/19 18:43:34.698: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:43:34.698: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:43:34.698: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:43:34.698: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7ff7521982bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7ff75218e019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7ff7521c26c7]
+./open5gs-upfd(+0x832d) [0x55cf42fb232d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7ff751b63083]
+./open5gs-upfd(+0x79ee) [0x55cf42fb19ee]
+Open5GS daemon v2.7.0
+
+01/19 18:45:38.652: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:45:38.652: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:45:38.652: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:45:38.652: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f7b4684b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f7b46841019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f7b468756c7]
+./open5gs-upfd(+0x832d) [0x559d16f5632d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7b46216083]
+./open5gs-upfd(+0x79ee) [0x559d16f559ee]
+Open5GS daemon v2.7.0
+
+01/19 18:47:49.014: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:47:49.014: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:47:49.014: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:47:49.014: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7feb7b1142bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7feb7b10a019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7feb7b13e6c7]
+./open5gs-upfd(+0x832d) [0x55adebb6e32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7feb7aadf083]
+./open5gs-upfd(+0x79ee) [0x55adebb6d9ee]
+Open5GS daemon v2.7.0
+
+01/19 18:48:12.468: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:48:12.468: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 18:48:12.468: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:48:12.469: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f58dd7772bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f58dd76d019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f58dd7a16c7]
+./open5gs-upfd(+0x832d) [0x55becd3c132d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f58dd142083]
+./open5gs-upfd(+0x79ee) [0x55becd3c09ee]
+Open5GS daemon v2.7.0
+
+01/19 19:03:18.437: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:03:18.437: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 19:03:18.437: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:03:18.438: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fbb83d142bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fbb83d0a019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fbb83d3e6c7]
+./open5gs-upfd(+0x832d) [0x55ba8a22632d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fbb836df083]
+./open5gs-upfd(+0x79ee) [0x55ba8a2259ee]
+Open5GS daemon v2.7.0
+
+01/19 19:05:17.022: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:05:17.022: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/19 19:05:17.022: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:05:17.022: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f99251ce2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f99251c4019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f99251f86c7]
+./open5gs-upfd(+0x832d) [0x5644a436d32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f9924b99083]
+./open5gs-upfd(+0x79ee) [0x5644a436c9ee]
+Open5GS daemon v2.7.0
+
+01/20 06:23:21.466: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:23:21.466: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:23:21.466: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:23:21.466: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f2ae0d7f2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2ae0d75019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f2ae0da96c7]
+./open5gs-upfd(+0x832d) [0x55ad8c3bd32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2ae074a083]
+./open5gs-upfd(+0x79ee) [0x55ad8c3bc9ee]
+Open5GS daemon v2.7.0
+
+01/20 06:25:27.422: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:25:27.422: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:25:27.422: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:25:27.422: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f5ea2fa92bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f5ea2f9f019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f5ea2fd36c7]
+./open5gs-upfd(+0x832d) [0x55fb69e3a32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f5ea2974083]
+./open5gs-upfd(+0x79ee) [0x55fb69e399ee]
+Open5GS daemon v2.7.0
+
+01/20 06:32:26.083: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:32:26.083: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:32:26.083: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:32:26.084: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f57b282a2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f57b2820019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f57b28546c7]
+./open5gs-upfd(+0x832d) [0x55d13837732d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f57b21f5083]
+./open5gs-upfd(+0x79ee) [0x55d1383769ee]
+Open5GS daemon v2.7.0
+
+01/20 06:33:29.038: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:33:29.038: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:33:29.038: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:33:29.038: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f75251be2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f75251b4019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f75251e86c7]
+./open5gs-upfd(+0x832d) [0x55753e0ca32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7524b89083]
+./open5gs-upfd(+0x79ee) [0x55753e0c99ee]
+Open5GS daemon v2.7.0
+
+01/20 06:34:16.552: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:34:16.552: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:34:16.552: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:34:16.552: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f80dfd672bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f80dfd5d019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f80dfd916c7]
+./open5gs-upfd(+0x832d) [0x55e5e8dab32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f80df732083]
+./open5gs-upfd(+0x79ee) [0x55e5e8daa9ee]
+Open5GS daemon v2.7.0
+
+01/20 06:36:14.861: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:36:14.861: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:36:14.861: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:36:14.862: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f251ad8e2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f251ad84019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f251adb86c7]
+./open5gs-upfd(+0x832d) [0x55dbb96fe32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f251a759083]
+./open5gs-upfd(+0x79ee) [0x55dbb96fd9ee]
+Open5GS daemon v2.7.0
+
+01/20 06:36:56.615: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:36:56.615: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:36:56.615: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:36:56.615: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f0fca1332bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f0fca129019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f0fca15d6c7]
+./open5gs-upfd(+0x832d) [0x55a105d0a32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f0fc9afe083]
+./open5gs-upfd(+0x79ee) [0x55a105d099ee]
+Open5GS daemon v2.7.0
+
+01/20 06:38:41.407: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:38:41.407: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:38:41.407: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:38:41.407: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f7d82ee62bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f7d82edc019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f7d82f106c7]
+./open5gs-upfd(+0x832d) [0x556cc271332d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7d828b1083]
+./open5gs-upfd(+0x79ee) [0x556cc27129ee]
+Open5GS daemon v2.7.0
+
+01/20 06:40:36.779: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:40:36.779: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:40:36.779: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:40:36.779: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f5ae9c652bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f5ae9c5b019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f5ae9c8f6c7]
+./open5gs-upfd(+0x832d) [0x560292e6732d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f5ae9630083]
+./open5gs-upfd(+0x79ee) [0x560292e669ee]
+Open5GS daemon v2.7.0
+
+01/20 06:50:18.860: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:50:18.860: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:50:18.860: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:50:18.861: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fb234efb2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fb234ef1019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fb234f256c7]
+./open5gs-upfd(+0x832d) [0x55fb3404c32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fb2348c6083]
+./open5gs-upfd(+0x79ee) [0x55fb3404b9ee]
+Open5GS daemon v2.7.0
+
+01/20 06:51:32.775: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:51:32.775: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:51:32.775: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:51:32.775: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc94827b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc948271019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc9482a56c7]
+./open5gs-upfd(+0x832d) [0x5574e16de32d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc947c46083]
+./open5gs-upfd(+0x79ee) [0x5574e16dd9ee]
+Open5GS daemon v2.7.0
+
+01/20 06:58:19.210: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:58:19.210: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 06:58:19.210: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:58:19.210: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc0649382bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc06492e019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc0649626c7]
+./open5gs-upfd(+0x832d) [0x55a955a1332d]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc064303083]
+./open5gs-upfd(+0x79ee) [0x55a955a129ee]
+Open5GS daemon v2.7.0
+
+01/20 07:05:42.219: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:05:42.219: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:05:42.480: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:05:42.480: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:05:42.480: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:05:42.480: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:15:58.488: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:15:58.488: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:15:58.641: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:15:58.641: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:15:58.641: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:15:58.642: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:21:27.711: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:21:27.711: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:21:27.929: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:21:27.929: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:21:27.929: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:21:27.931: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:37:08.880: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:37:08.881: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:37:09.186: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:37:09.186: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:37:09.186: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:37:09.187: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:46:37.515: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:46:37.515: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:46:37.761: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:46:37.761: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:46:37.762: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:46:37.764: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:51:21.550: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:21.550: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:21.861: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:51:21.861: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:51:21.861: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:51:21.862: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:51:54.984: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:54.984: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:55.117: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:51:55.117: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:51:55.117: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:51:55.118: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:56:43.860: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:56:43.860: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:56:44.171: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:56:44.171: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:56:44.171: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 07:56:44.173: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:56:44.177: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 07:56:51.682: [pfcp] WARNING: [1] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:56:55.311: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:57:03.224: [pfcp] WARNING: [2] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:57:06.313: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+Open5GS daemon v2.7.0
+
+01/20 07:57:19.320: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:57:19.320: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:57:19.528: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:57:19.529: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:57:19.529: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 07:57:19.534: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:57:19.535: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 07:57:27.045: [pfcp] WARNING: [1] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:57:30.534: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:57:38.061: [pfcp] WARNING: [2] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:57:41.538: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:57:49.090: [pfcp] WARNING: [3] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:57:52.543: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:58:00.050: [pfcp] WARNING: [4] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:58:03.545: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:58:11.055: [pfcp] WARNING: [5] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:58:14.550: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:58:22.062: [pfcp] WARNING: [6] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:58:25.554: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+01/20 07:58:33.062: [pfcp] WARNING: [7] LOCAL  No Reponse. Give up! for step 1 type 5 peer [172.22.0.7]:8805 (../lib/pfcp/xact.c:606)
+01/20 07:58:36.558: [upf] WARNING: Retry association with peer [172.22.0.7]:8805 failed (../src/upf/pfcp-sm.c:107)
+Open5GS daemon v2.7.0
+
+01/20 07:59:24.117: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:24.117: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:24.379: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:59:24.379: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:59:24.379: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:59:24.391: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 07:59:55.235: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:55.235: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:55.911: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 07:59:55.912: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 07:59:55.912: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 07:59:55.913: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:02:20.340: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:02:20.340: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:02:20.713: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:02:20.713: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:02:20.714: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:02:20.727: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:18:53.580: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:18:53.580: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:18:54.057: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:18:54.057: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:18:54.057: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:18:54.057: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:20:06.379: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:20:06.379: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:20:06.782: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:20:06.797: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:20:06.799: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:20:06.801: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:22:16.069: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:22:16.069: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:22:16.298: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:22:16.300: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:22:16.301: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:22:16.303: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:29:22.153: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:29:22.153: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:29:22.611: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:29:22.611: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:29:22.611: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:29:22.613: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:30:11.008: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:30:11.008: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:30:11.451: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:30:11.451: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:30:11.452: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:30:11.454: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 08:34:01.220: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 08:34:01.241: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/20 08:34:52.200: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:34:52.200: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:34:52.571: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:34:52.571: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:34:52.571: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:34:52.574: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:37:20.220: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:37:20.220: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:37:20.477: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:37:20.477: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:37:20.477: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:37:20.478: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 08:37:20.617: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 08:37:20.617: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/20 08:43:38.029: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:43:38.029: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:43:38.307: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:43:38.307: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:43:38.307: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:43:38.330: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 08:43:38.370: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 08:43:38.370: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/20 08:51:24.161: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:51:24.161: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:51:24.453: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:51:24.453: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:51:24.453: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:51:24.456: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:52:09.324: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:52:09.324: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:52:09.563: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:52:09.565: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:52:09.571: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:52:09.578: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 08:52:10.079: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 08:52:10.080: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/20 08:53:57.317: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:53:57.317: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:53:57.566: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:53:57.566: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:53:57.566: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:53:57.589: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:54:59.027: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:54:59.027: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:54:59.574: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:54:59.575: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:54:59.575: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:54:59.583: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.7.0
+
+01/20 08:55:35.613: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:35.613: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:35.836: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/20 08:55:35.837: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/20 08:55:35.837: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/20 08:55:35.838: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/20 08:55:37.685: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/20 08:55:37.687: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/26 15:25:25.209: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/26 15:25:25.209: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/26 15:25:25.787: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/26 15:25:25.787: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/26 15:25:25.787: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/26 15:25:25.788: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/26 15:25:27.845: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/26 15:25:27.847: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/26 16:22:48.679: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:22:48.679: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/26 16:22:49.167: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/26 16:22:49.167: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/26 16:22:49.167: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/26 16:22:49.178: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/26 16:22:50.165: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/26 16:22:50.166: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/26 16:24:16.146: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:24:16.147: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/26 16:24:16.577: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/26 16:24:16.577: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/26 16:24:16.577: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/26 16:24:16.577: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/26 16:24:19.034: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/26 16:24:19.035: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/26 16:27:13.359: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:27:13.359: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/26 16:27:13.729: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/26 16:27:13.729: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/26 16:27:13.729: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/26 16:27:13.733: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/26 16:27:14.699: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/26 16:27:14.702: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/26 16:43:06.387: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:43:06.387: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/26 16:43:06.805: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/26 16:43:06.805: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/26 16:43:06.805: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/26 16:43:06.808: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/26 16:43:07.591: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/26 16:43:07.591: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+Open5GS daemon v2.7.0
+
+01/26 16:44:46.276: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:44:46.276: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:133)
+01/26 16:44:46.842: [metrics] INFO: metrics_server() [http://172.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+01/26 16:44:46.842: [pfcp] INFO: pfcp_server() [172.22.0.8]:8805 (../lib/pfcp/path.c:30)
+01/26 16:44:46.843: [gtp] INFO: gtp_server() [172.22.0.8]:2152 (../lib/gtp/path.c:30)
+01/26 16:44:46.857: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+01/26 16:44:47.421: [pfcp] INFO: ogs_pfcp_connect() [172.22.0.7]:8805 (../lib/pfcp/path.c:61)
+01/26 16:44:47.422: [upf] INFO: PFCP associated [172.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)

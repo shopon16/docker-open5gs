@@ -1,0 +1,634 @@
+Open5GS daemon v2.6.6
+
+01/19 15:03:19.230: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:03:19.230: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:129)
+01/19 15:03:19.251: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/19 15:03:19.412: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/19 15:03:19.433: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.6.6
+
+01/19 15:04:07.314: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:126)
+01/19 15:04:07.314: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:129)
+01/19 15:04:07.334: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/19 15:04:07.511: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/19 15:04:07.533: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/19 15:27:38.883: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/19 15:51:57.913: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:51:57.913: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 15:51:57.913: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:51:57.913: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fce539bd2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fce539b3019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fce539e76c7]
+./open5gs-hssd(+0x7bad) [0x55afc1777bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fce53529083]
+./open5gs-hssd(+0x726e) [0x55afc177726e]
+Open5GS daemon v2.7.0
+
+01/19 15:53:36.120: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:53:36.120: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 15:53:36.120: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:53:36.121: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f44cd5572bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f44cd54d019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f44cd5816c7]
+./open5gs-hssd(+0x7bad) [0x559849946bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f44cd0c3083]
+./open5gs-hssd(+0x726e) [0x55984994626e]
+Open5GS daemon v2.7.0
+
+01/19 15:54:32.910: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:54:32.910: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 15:54:32.910: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:54:32.911: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fe4a54aa2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fe4a54a0019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fe4a54d46c7]
+./open5gs-hssd(+0x7bad) [0x55a73318ebad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fe4a5016083]
+./open5gs-hssd(+0x726e) [0x55a73318e26e]
+Open5GS daemon v2.7.0
+
+01/19 15:57:25.670: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:57:25.670: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 15:57:25.670: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:57:25.670: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f6d2d63c2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f6d2d632019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f6d2d6666c7]
+./open5gs-hssd(+0x7bad) [0x55993c9fcbad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f6d2d1a8083]
+./open5gs-hssd(+0x726e) [0x55993c9fc26e]
+Open5GS daemon v2.7.0
+
+01/19 15:58:16.703: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 15:58:16.703: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 15:58:16.703: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 15:58:16.703: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f73468c32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f73468b9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f73468ed6c7]
+./open5gs-hssd(+0x7bad) [0x561a8bca3bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f734642f083]
+./open5gs-hssd(+0x726e) [0x561a8bca326e]
+Open5GS daemon v2.7.0
+
+01/19 16:00:22.710: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:00:22.711: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 16:00:22.712: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:00:22.713: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fbef94032bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fbef93f9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fbef942d6c7]
+./open5gs-hssd(+0x7bad) [0x5579382a0bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fbef8f6f083]
+./open5gs-hssd(+0x726e) [0x5579382a026e]
+Open5GS daemon v2.7.0
+
+01/19 16:01:01.473: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:01:01.473: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 16:01:01.473: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:01:01.473: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f13d53dd2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f13d53d3019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f13d54076c7]
+./open5gs-hssd(+0x7bad) [0x55e975ae7bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f13d4f49083]
+./open5gs-hssd(+0x726e) [0x55e975ae726e]
+Open5GS daemon v2.7.0
+
+01/19 16:02:52.742: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:02:52.742: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 16:02:52.742: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:02:52.743: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7ff5b58612bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7ff5b5857019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7ff5b588b6c7]
+./open5gs-hssd(+0x7bad) [0x56088632cbad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7ff5b53cd083]
+./open5gs-hssd(+0x726e) [0x56088632c26e]
+Open5GS daemon v2.7.0
+
+01/19 16:04:58.712: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 16:04:58.712: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 16:04:58.712: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 16:04:58.712: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f2ff39282bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2ff391e019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f2ff39526c7]
+./open5gs-hssd(+0x7bad) [0x55fbe239abad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2ff3494083]
+./open5gs-hssd(+0x726e) [0x55fbe239a26e]
+Open5GS daemon v2.7.0
+
+01/19 17:45:06.007: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:06.007: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:06.007: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:06.007: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f75b300b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f75b3001019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f75b30356c7]
+./open5gs-hssd(+0x7bad) [0x55efd2c19bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f75b2b77083]
+./open5gs-hssd(+0x726e) [0x55efd2c1926e]
+Open5GS daemon v2.7.0
+
+01/19 17:45:27.029: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:45:27.029: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 17:45:27.030: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:45:27.030: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fd510ac82bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fd510abe019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fd510af26c7]
+./open5gs-hssd(+0x7bad) [0x563bd09a3bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fd510634083]
+./open5gs-hssd(+0x726e) [0x563bd09a326e]
+Open5GS daemon v2.7.0
+
+01/19 17:47:18.426: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 17:47:18.426: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 17:47:18.426: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 17:47:18.426: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f339c2112bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f339c207019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f339c23b6c7]
+./open5gs-hssd(+0x7bad) [0x56498cda7bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f339bd7d083]
+./open5gs-hssd(+0x726e) [0x56498cda726e]
+Open5GS daemon v2.7.0
+
+01/19 18:38:40.852: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:38:40.852: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:38:40.855: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:38:40.862: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f29ae5242bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f29ae51a019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f29ae54e6c7]
+./open5gs-hssd(+0x7bad) [0x564cc8971bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f29ae090083]
+./open5gs-hssd(+0x726e) [0x564cc897126e]
+Open5GS daemon v2.7.0
+
+01/19 18:40:36.146: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:40:36.146: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:40:36.146: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:40:36.147: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f87602f32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f87602e9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f876031d6c7]
+./open5gs-hssd(+0x7bad) [0x55593c434bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f875fe5f083]
+./open5gs-hssd(+0x726e) [0x55593c43426e]
+Open5GS daemon v2.7.0
+
+01/19 18:42:53.805: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:42:53.805: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:42:53.805: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:42:53.805: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f1fc66d02bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f1fc66c6019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f1fc66fa6c7]
+./open5gs-hssd(+0x7bad) [0x563d26771bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f1fc623c083]
+./open5gs-hssd(+0x726e) [0x563d2677126e]
+Open5GS daemon v2.7.0
+
+01/19 18:43:43.433: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:43:43.434: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:43:43.436: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:43:43.436: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f3ffa5592bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f3ffa54f019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f3ffa5836c7]
+./open5gs-hssd(+0x7bad) [0x5612c7dc9bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3ffa0c5083]
+./open5gs-hssd(+0x726e) [0x5612c7dc926e]
+Open5GS daemon v2.7.0
+
+01/19 18:45:51.325: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:45:51.325: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:45:51.325: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:45:51.325: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f9e957782bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f9e9576e019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f9e957a26c7]
+./open5gs-hssd(+0x7bad) [0x55eb86280bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f9e952e4083]
+./open5gs-hssd(+0x726e) [0x55eb8628026e]
+Open5GS daemon v2.7.0
+
+01/19 18:47:57.502: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:47:57.503: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:47:57.504: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:47:57.505: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f7dfe3692bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f7dfe35f019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f7dfe3936c7]
+./open5gs-hssd(+0x7bad) [0x5634fda57bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f7dfded5083]
+./open5gs-hssd(+0x726e) [0x5634fda5726e]
+Open5GS daemon v2.7.0
+
+01/19 18:48:21.179: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 18:48:21.179: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 18:48:21.179: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 18:48:21.179: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f03f8b272bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f03f8b1d019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f03f8b516c7]
+./open5gs-hssd(+0x7bad) [0x56554ae31bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f03f8693083]
+./open5gs-hssd(+0x726e) [0x56554ae3126e]
+Open5GS daemon v2.7.0
+
+01/19 19:03:26.762: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:03:26.762: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 19:03:26.762: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:03:26.765: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f4f567f52bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f4f567eb019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f4f5681f6c7]
+./open5gs-hssd(+0x7bad) [0x5555855bebad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f4f56361083]
+./open5gs-hssd(+0x726e) [0x5555855be26e]
+Open5GS daemon v2.7.0
+
+01/19 19:05:26.301: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/19 19:05:26.301: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/19 19:05:26.302: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/19 19:05:26.302: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f554df3b2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f554df31019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f554df656c7]
+./open5gs-hssd(+0x7bad) [0x55c9b8591bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f554daa7083]
+./open5gs-hssd(+0x726e) [0x55c9b859126e]
+Open5GS daemon v2.7.0
+
+01/20 06:23:31.006: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:23:31.006: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:23:31.007: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:23:31.007: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f60fa1202bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f60fa116019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f60fa14a6c7]
+./open5gs-hssd(+0x7bad) [0x55de6ea4cbad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f60f9c8c083]
+./open5gs-hssd(+0x726e) [0x55de6ea4c26e]
+Open5GS daemon v2.7.0
+
+01/20 06:25:36.523: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:25:36.525: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:25:36.526: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:25:36.528: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f256972c2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2569722019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f25697566c7]
+./open5gs-hssd(+0x7bad) [0x55d7c9a66bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2569298083]
+./open5gs-hssd(+0x726e) [0x55d7c9a6626e]
+Open5GS daemon v2.7.0
+
+01/20 06:32:35.133: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:32:35.133: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:32:35.133: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:32:35.134: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f5f58bd82bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f5f58bce019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f5f58c026c7]
+./open5gs-hssd(+0x7bad) [0x55e9f36bebad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f5f58744083]
+./open5gs-hssd(+0x726e) [0x55e9f36be26e]
+Open5GS daemon v2.7.0
+
+01/20 06:33:38.616: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:33:38.616: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:33:38.616: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:33:38.616: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fbdd05032bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fbdd04f9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fbdd052d6c7]
+./open5gs-hssd(+0x7bad) [0x55b0f53e4bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fbdd006f083]
+./open5gs-hssd(+0x726e) [0x55b0f53e426e]
+Open5GS daemon v2.7.0
+
+01/20 06:34:25.859: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:34:25.859: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:34:25.859: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:34:25.859: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f1462ec32bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f1462eb9019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f1462eed6c7]
+./open5gs-hssd(+0x7bad) [0x55b783891bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f1462a2f083]
+./open5gs-hssd(+0x726e) [0x55b78389126e]
+Open5GS daemon v2.7.0
+
+01/20 06:36:23.831: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:36:23.832: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:36:23.832: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:36:23.832: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f238aabc2bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f238aab2019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f238aae66c7]
+./open5gs-hssd(+0x7bad) [0x5567e1b80bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f238a628083]
+./open5gs-hssd(+0x726e) [0x5567e1b8026e]
+Open5GS daemon v2.7.0
+
+01/20 06:37:05.359: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:37:05.359: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:37:05.359: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:37:05.359: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f8d342312bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f8d34227019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f8d3425b6c7]
+./open5gs-hssd(+0x7bad) [0x561e9739fbad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8d33d9d083]
+./open5gs-hssd(+0x726e) [0x561e9739f26e]
+Open5GS daemon v2.7.0
+
+01/20 06:38:50.735: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:38:50.735: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:38:50.735: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:38:50.738: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fc9981b92bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fc9981af019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fc9981e36c7]
+./open5gs-hssd(+0x7bad) [0x55f080d17bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc997d25083]
+./open5gs-hssd(+0x726e) [0x55f080d1726e]
+Open5GS daemon v2.7.0
+
+01/20 06:40:44.676: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:40:44.677: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:40:44.677: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:40:44.678: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f82392942bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f823928a019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f82392be6c7]
+./open5gs-hssd(+0x7bad) [0x5565ec5f5bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8238e00083]
+./open5gs-hssd(+0x726e) [0x5565ec5f526e]
+Open5GS daemon v2.7.0
+
+01/20 06:50:28.040: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:50:28.040: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:50:28.040: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:50:28.040: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7fdd503a22bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7fdd50398019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7fdd503cc6c7]
+./open5gs-hssd(+0x7bad) [0x55f4ff555bad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fdd4ff0e083]
+./open5gs-hssd(+0x726e) [0x55f4ff55526e]
+Open5GS daemon v2.7.0
+
+01/20 06:51:42.623: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:51:42.623: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:51:42.624: [core] FATAL: epoll_init: Assertion `context->epfd >= 0' failed. (../lib/core/ogs-epoll.c:77)
+01/20 06:51:42.624: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(+0x242bd) [0x7f28933112bd]
+/open5gs/install/lib/x86_64-linux-gnu/libogscore.so.2(ogs_pollset_create+0x328) [0x7f2893307019]
+/open5gs/install/lib/x86_64-linux-gnu/libogsapp.so.2(ogs_app_initialize+0x626) [0x7f289333b6c7]
+./open5gs-hssd(+0x7bad) [0x56170e61bbad]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f2892e7d083]
+./open5gs-hssd(+0x726e) [0x56170e61b26e]
+Open5GS daemon v2.7.0
+
+01/20 06:58:27.582: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 06:58:27.582: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 06:58:27.613: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 06:58:27.831: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 06:58:27.862: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 07:05:52.680: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:05:52.681: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:05:52.689: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:05:52.859: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:05:52.879: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 07:21:35.269: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:21:35.269: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:21:35.293: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:21:35.433: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:21:35.461: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 07:46:46.741: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:46:46.741: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:46:46.764: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:46:46.884: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:46:46.918: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 07:51:30.692: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:51:30.692: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:51:30.703: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:51:30.816: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:51:30.846: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 07:52:05.202: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:52:05.203: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:52:05.218: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:52:05.309: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:52:05.330: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 07:53:38.178: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 07:56:53.017: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:56:53.017: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:56:53.035: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:56:53.244: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:56:53.266: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 07:57:08.716: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 07:57:28.083: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:57:28.083: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:57:28.091: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:57:28.422: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:57:28.449: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 07:58:17.625: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 07:59:32.598: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 07:59:32.598: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 07:59:32.616: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 07:59:32.703: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 07:59:32.729: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 07:59:44.858: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:00:06.434: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:00:06.434: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:00:06.443: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:00:06.609: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:00:06.630: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:02:29.259: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:02:29.260: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:02:29.286: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:02:29.513: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:02:29.552: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:02:31.839: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:19:04.085: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:19:04.085: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:19:04.102: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:19:04.863: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:19:04.905: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:19:14.430: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:20:15.647: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:20:15.647: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:20:15.664: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:20:15.875: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:20:15.895: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:21:41.153: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:22:25.890: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:22:25.890: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:22:25.895: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:22:26.056: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:22:26.080: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:22:42.236: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:29:31.040: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:29:31.040: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:29:31.059: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:29:31.199: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:29:31.221: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:30:20.360: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:30:20.361: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:30:20.365: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:30:20.545: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:30:20.570: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:35:00.095: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:35:00.096: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:35:00.103: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:35:00.305: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:35:00.329: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:35:39.883: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:37:30.003: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:37:30.003: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:37:30.022: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:37:30.304: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:37:30.314: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#14): (../lib/diameter/common/logger.c:108)
+01/20 08:38:25.689: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:43:48.628: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:43:48.628: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:43:48.644: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:43:48.756: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:43:48.791: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:49:39.318: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:52:17.304: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:52:17.304: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:52:17.308: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:52:17.474: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:52:17.518: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:52:40.498: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/20 08:54:05.934: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:54:05.934: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:54:05.950: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:54:06.058: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:54:06.083: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+Open5GS daemon v2.7.0
+
+01/20 08:55:44.378: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/20 08:55:44.378: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/20 08:55:44.403: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/20 08:55:44.595: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/20 08:55:44.655: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/20 08:56:06.131: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/26 15:25:34.091: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/26 15:25:34.091: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/26 15:25:34.106: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 15:25:34.211: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/26 15:25:34.231: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/26 16:16:58.980: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/26 16:22:57.235: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:22:57.235: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/26 16:22:57.239: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:22:57.331: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/26 16:22:57.354: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/26 16:23:17.602: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/26 16:24:24.041: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:24:24.041: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/26 16:24:24.052: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:24:24.219: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/26 16:24:24.226: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/26 16:24:44.707: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/26 16:27:21.596: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:27:21.596: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/26 16:27:21.613: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:27:21.899: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/26 16:27:21.925: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/26 16:27:50.687: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/26 16:43:14.166: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:43:14.168: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/26 16:43:14.194: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:43:14.299: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/26 16:43:14.330: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/26 16:43:25.846: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
+Open5GS daemon v2.7.0
+
+01/26 16:44:54.592: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/hss.yaml' (../lib/app/ogs-init.c:130)
+01/26 16:44:54.592: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/hss.log' (../lib/app/ogs-init.c:133)
+01/26 16:44:54.607: [dbi] INFO: MongoDB URI: 'mongodb://172.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+01/26 16:44:54.876: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+01/26 16:44:54.899: [diam] INFO: CONNECTED TO 'mme.epc.mnc001.mcc001.3gppnetwork.org' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+01/26 17:41:15.653: [diam] ERROR: pid:PSM/mme.epc.mnc001.mcc001.3gppnetwork.org in fd_psm_change_state@p_psm.c:284: 'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.epc.mnc001.mcc001.3gppnetwork.org'
+ ((null):0)
