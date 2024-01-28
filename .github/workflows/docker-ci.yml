@@ -30,4 +30,4 @@ jobs:
         with:
           context: ./base
           push: true
-          tags: user/app:latest
+          tags: shopon16/docker-open5gs-only-4g:v0.2
